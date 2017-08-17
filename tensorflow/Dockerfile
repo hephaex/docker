@@ -37,7 +37,7 @@ RUN pip --no-cache-dir install \
         && \
     python -m ipykernel.kernelspec
 
-# Install TensorFlow CPU version from central repo
+# Install TensorFlow CPU version from central repo 1.2.1
 RUN pip --no-cache-dir install \
     https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow-1.2.1-cp34-cp34m-linux_x86_64.whl
 
